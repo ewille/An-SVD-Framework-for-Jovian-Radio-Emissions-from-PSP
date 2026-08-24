@@ -76,4 +76,3 @@ data are already public elsewhere, and the intermediate products are large.
    `PSP_RAW_DATA_DIR` directly.
 
 Post-processed data and the SPICE kernels are found in the Zenodo at https://zenodo.org/records/22076017.
-```
