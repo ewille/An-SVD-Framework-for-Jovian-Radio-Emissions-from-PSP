@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/*.h5
+data/*.csv
+data/monthly_stokes_v/
+*.png

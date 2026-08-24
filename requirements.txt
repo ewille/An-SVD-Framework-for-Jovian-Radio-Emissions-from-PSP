@@ -1,0 +1,18 @@
+# Core scientific stack (matches manuscript Software section)
+numpy
+scipy
+pandas
+matplotlib
+astropy
+spiceypy
+spacepy
+h5py
+joblib
+
+# Table I/O used for the processed HDF5 data products
+tables
+
+# Only needed for the interactive annotation tool
+# (src/eigenfaces/annotator.py) -- not needed to run the rest of the
+# pipeline or reproduce figures from already-labeled annotation files.
+ipywidgets

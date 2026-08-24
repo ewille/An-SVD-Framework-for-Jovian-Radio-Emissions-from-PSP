@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software (via its Zenodo DOI) and the associated paper."
+title: "psp-jovian-svd: A Singular Value Decomposition Framework for Jovian Radio Emissions from Parker Solar Probe"
+authors:
+  - family-names: "Wille"
+    given-names: "Evan"
+    affiliation: "University of California, Berkeley"
+    email: "ewille@berkeley.edu"
+license: MIT
+repository-code: "https://github.com/<your-username>/psp-jovian-svd"  # TODO: fill in
+# TODO: add `doi:` once archived on Zenodo, and a `preferred-citation:`
+# block pointing at the AGU paper once it has a DOI.
