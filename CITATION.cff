@@ -7,6 +7,6 @@ authors:
     affiliation: "University of California, Berkeley"
     email: "ewille@berkeley.edu"
 license: MIT
-repository-code: "https://github.com/<your-username>/psp-jovian-svd"  # TODO: fill in
-# TODO: add `doi:` once archived on Zenodo, and a `preferred-citation:`
-# block pointing at the AGU paper once it has a DOI.
+repository-code: "https://github.com/ewille/psp-jovian-svd"  # TODO: fill in
+doi: https://doi.org/10.5281/zenodo.22075746
+and a `preferred-citation:`
