@@ -7,10 +7,6 @@ emissions from six years of PSP FIELDS/RFS data using entropy-thresholded
 SVD, cross-validates against an independent Stokes V product and Juno-Waves,
 and reproduces the paper's figures.
 
-> **Status:** this repository was split out of the original analysis
-> notebook and is undergoing cleanup before the public release tied to
-> the AGU submission.
-
 ## Pipeline overview
 
 | Stage | Paper section | Module |
