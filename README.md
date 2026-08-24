@@ -82,5 +82,4 @@ MIT — see `LICENSE`.
 
 ## Citation
 
-See `CITATION.cff` (to be finalized with the Zenodo archive DOI and paper
-DOI once available).
+See `CITATION.cff`.
