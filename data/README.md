@@ -75,38 +75,5 @@ data are already public elsewhere, and the intermediate products are large.
    file. `src/stokes_comparison/` reads `data_<YYYY>_<MM>.h5` from
    `PSP_RAW_DATA_DIR` directly.
 
-## Raw inputs
-
-- **Raw CDF archive** (`PSP_HFR_DIR` / `PSP_LFR_DIR`, default
-  `data/raw_cdf/HFR/` and `data/raw_cdf/LFR/`): the public FIELDS/RFS
-  CDF files, consumed by `build_monthly_archive.py`.
-- **SPICE kernels** (`PSP_SPICE_KERNEL_DIR`, default
-  `data/spiceypy_kernels/`): `de440s.bsp`, `naif0012.tls`, `jup365.bsp`,
-  `pck00010.tpc` (all from the NAIF generic kernel archive), and
-  `spp_nom_20180812_20300101_v042_PostV7.bsp` (PSP's trajectory SPK,
-  from the PSP SPICE kernel archive on NAIF/PDS).
-
-## Expected files
-
-```
-data/
-├── data_theta_psp.h5                    # <- output of make_folded_data.py (phase_frame="lambda_iii")
-├── data_phi_io.h5                       # <- output of make_folded_data.py (phase_frame="phi_io")
-├── freqs.csv
-└── spiceypy_kernels/
-    ├── de440s.bsp
-    ├── naif0012.tls
-    ├── jup365.bsp
-    ├── pck00010.tpc
-    └── spp_nom_20180812_20300101_v042_PostV7.bsp
-```
-
-Set these to point elsewhere if you keep data outside the repo:
-
-```bash
-export PSP_DATA_DIR=/path/to/your/data
-export PSP_RAW_DATA_DIR=/path/to/raw/monthly/files    # defaults under PSP_DATA_DIR
-export PSP_SPICE_KERNEL_DIR=/path/to/spice/kernels     # defaults under PSP_DATA_DIR
-export PSP_HFR_DIR=/path/to/raw/cdf/HFR                # defaults under PSP_DATA_DIR
-export PSP_LFR_DIR=/path/to/raw/cdf/LFR                # defaults under PSP_DATA_DIR
+Post-processed data and the SPICE kernels are found in the Zenodo at https://zenodo.org/records/22076017.
 ```
