@@ -92,18 +92,7 @@ data are already public elsewhere, and the intermediate products are large.
 data/
 ├── data_theta_psp.h5                    # <- output of make_folded_data.py (phase_frame="lambda_iii")
 ├── data_phi_io.h5                       # <- output of make_folded_data.py (phase_frame="phi_io")
-├── all_jupiter_data.h5                  # still needs its generating script (see above)
-├── all_jupiter_data_unrolled.h5         # still needs its generating script (see above)
 ├── freqs.csv
-├── jovian_annotations_negative.json
-├── jovian_annotations_positive.json
-├── all_annotations_negative.json
-├── all_annotations_positive.json
-├── raw_monthly/                         # <- output of build_monthly_archive.py; also read directly by stokes_comparison
-│   └── data_2020_06.h5
-├── raw_cdf/
-│   ├── HFR/
-│   └── LFR/
 └── spiceypy_kernels/
     ├── de440s.bsp
     ├── naif0012.tls
