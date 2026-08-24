@@ -9,8 +9,7 @@ and reproduces the paper's figures.
 
 > **Status:** this repository was split out of the original analysis
 > notebook and is undergoing cleanup before the public release tied to
-> the AGU submission. See "Known issues" below for what's resolved and
-> what still needs author confirmation.
+> the AGU submission.
 
 ## Pipeline overview
 
@@ -33,10 +32,6 @@ same monthly input to produce both final archives: `data_theta_psp.h5`
 (folded to PSP's Jovian System III longitude, lambda_III) and
 `data_phi_io.h5` (folded to Io phase, Phi_Io).
 
-**Still missing:** the script that turns `data_theta_psp.h5` plus the
-manual annotations into the morphology-labeled `all_jupiter_data.h5` /
-`all_jupiter_data_unrolled.h5` files that `load_jupiter_data()` expects.
-See `data/README.md` for detail.
 
 ## Installation
 
